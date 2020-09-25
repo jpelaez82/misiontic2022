@@ -14,7 +14,7 @@ con las especificaciones mencionadas anteriormente (redondeado a dos decimales, 
 eliminando la peor de las cinco notas del estudiante).
 """
 
-def nota_quices(código: str, nota1: int, nota2: int, nota3: int, nota4: int, nota5: int) -> str:
+def nota_quices(codigo: str, nota1: int, nota2: int, nota3: int, nota4: int, nota5: int) -> str:
  ''' Nota quices
  :Parámetros:
  codigo (str): codigo único alfanumérico del estudiante
@@ -49,7 +49,7 @@ def nota_quices(código: str, nota1: int, nota2: int, nota3: int, nota4: int, no
  promedio = round(promedio, 2)
 
  # Salida
- return "El promedio ajustado del estudiante {} es: {}".format(código, promedio)
+ return "El promedio ajustado del estudiante {} es: {}".format(codigo, promedio)
  
  pass
 
